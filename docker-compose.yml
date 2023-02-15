@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres:15-bullseye
+    environment:
+      POSTGRES_DB: simple_bank
+      POSTGRES_USER: "root"
+      POSTGRES_PASSWORD: "secret"
+    ports:
+      - "8081:5432"
+
