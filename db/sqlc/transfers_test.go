@@ -2,11 +2,10 @@ package db
 
 import (
 	"context"
+	"github.com/pizhlo/go-simple-bank/util"
+	"github.com/stretchr/testify/require"
 	"testing"
 	"time"
-
-	"github.com/stretchr/testify/require"
-	"github.com/techschool/simplebank/util"
 )
 
 func createRandomTransfer(t *testing.T, account1, account2 Account) Transfer {

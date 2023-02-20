@@ -2,8 +2,8 @@ package db
 
 import (
 	"context"
+	"github.com/pizhlo/go-simple-bank/util"
 	"github.com/stretchr/testify/require"
-	"github.com/techschool/simplebank/util"
 	"testing"
 	"time"
 )
